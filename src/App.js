@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div>
-      <h1>All Users Data</h1>
+      <h1>Users Data</h1>
       <ul>
         {users.map(user => (
           <li key={user._id}>{user.name} - {user.email}</li>
